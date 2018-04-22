@@ -26,9 +26,12 @@ h2{
 }
 
 .section:nth-child(1) img{
-	  margin: auto;
+	  margin-right: 0;
+	  margin-left: 0;
+	  right: 0;
+	  left: 0;
       width: 50%;
-      position: 50% 50%;
+      min-height: 10em;
 }
 
 #yes{
