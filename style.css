@@ -28,8 +28,7 @@ h2{
 .section:nth-child(1) img{
 	  margin: auto;
       width: 50%;
-      position: center;
-    
+      position: 50% 50%;
 }
 
 #yes{
