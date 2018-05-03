@@ -25,6 +25,7 @@ h2{
 }
 
 
+
 ul{
    text-align: center;
 }
@@ -52,15 +53,30 @@ li:hover{
 /* Section Image styling */
 
 .section:nth-child(1){
-	padding-left: 50px;
-	padding-right: 50px;
+	display: none;
 }
+
+.section:nth-child(2){
+	display: none;
+}
+
+.section:nth-child(3){
+	display: none;
+}
+
+.section:nth-child(4){
+	display: none;
+}
+
 
 .section:nth-child(1) img{
 	display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
 
 .section:nth-child(2) img{
 	display: block;
@@ -94,6 +110,77 @@ li:hover{
 	padding-top: 250px;
 	padding-bottom: 80px;
 }
+
+#glitch{
+	width: 100%;
+	height: 100vh;
+	display: none;
+}
+
+#glitch img{
+	width: 100%;
+	height: 100vh;
+}
+
+
+
+#glitch h2{
+	text-align: center;
+	position: absolute;
+	font-size: 20px;
+	top: 50%;
+	left: 550px;
+}
+
+
+#correct-one{
+	display: none;
+  	width: 100%;
+	height: 100vh;
+	background-color: #E36D60;
+}
+
+#correct-one h2{
+  	text-align: center;
+	position: absolute;
+	font-size: 20px;
+	top: 50%;
+	left: 47%;
+}
+
+#correct-one a{
+	text-align: center;
+}
+
+
+#Incorrect-one{
+	display: none;
+  	width: 100%;
+	height: 100vh;
+	background-color: #E36D60;
+}
+
+#Incorrect-one h2{
+	text-align: center;
+	position: absolute;
+	font-size: 20px;
+	top: 50%;
+	left: 47%;
+}
+
+
+#correct-continue{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	width: 20%;
+	height: auto;
+	border: 1px solid #5AF3BB;
+}
+
+
+
+
 
 #start-button{
 	width: 20%;
