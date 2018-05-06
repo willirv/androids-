@@ -49,6 +49,10 @@ li:hover{
     color: red;
 }
 
+img{
+	width: 500px;
+	height: 600px;
+}
 
 /* Section Image styling */
 
@@ -102,7 +106,7 @@ li:hover{
 
 #loader{
 	height: 100vh;
-	background-color: black;
+	background-color: #211E2B;
 }
 
 #loader h1{
@@ -191,4 +195,10 @@ li:hover{
 	font-family: 'IBM Plex Mono', monospace;
 	font-size: 12px;
 	color: #5AF3BB;
+	transition: all .2s ease-in-out;
+}
+
+
+#start-button:hover{
+transform: scale(1.1);
 }

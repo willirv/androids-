@@ -4,7 +4,7 @@ $("#start-button").click(function() {
 
 	$('#fullpage').fullpage({
     //Changing the colours of the fullpage framework
-	sectionsColor: ['#211E2B', '#211E2B', '#211E2B', '#211E2B'],
+	sectionsColor: ['#ED8F5B', '#ED8F5B', '#ED8F5B', '#ED8F5B'],
 	//Allowing css to be used with fullpage framework
 	css3: true
 
@@ -24,6 +24,10 @@ $('#correct-one').hover(function(){
 $('#correct-one').delay(500).fadeOut('slow');
 $("#fullpage").show();
 });
+
+
+
+
 
 
 $("#yes-one").click(function() {  
