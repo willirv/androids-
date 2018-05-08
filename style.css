@@ -213,9 +213,26 @@ img{
 }
 
 #correct-one p{
+	text-align: center;
+	padding-top: 20px;
 	font-family: 'IBM Plex Mono', monospace;
-	font-size:  12px;
+	font-size:  15px;
 	color: #5AF3BB;
+	animation: blink 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 
@@ -233,6 +250,16 @@ img{
 	padding-top: 300px;
   	text-align: center;
 	font-size: 30px;
+}
+
+#Incorrect-one p{
+	text-align: center;
+	padding-top: 20px;
+	font-family: 'IBM Plex Mono', monospace;
+	font-size:  15px;
+	color: #5AF3BB;
+	animation: blink 1s;
+    animation-iteration-count: infinite;
 }
 
 
