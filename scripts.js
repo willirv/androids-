@@ -4,7 +4,7 @@ $("#start-button").click(function() {
 
 	$('#fullpage').fullpage({
     //Changing the colours of the fullpage framework
-	sectionsColor: ['#ED8F5B', '#ED8F5B', '#ED8F5B', '#ED8F5B'],
+	sectionsColor: ['#0D0E0C', '#0D0E0C', '#0D0E0C', '#0D0E0C'],
 	//Allowing css to be used with fullpage framework
 	css3: true
 
