@@ -28,7 +28,13 @@ h2{
 
 
 ul{
+   width: 600px;
+   min-width: 400px;
    text-align: center;
+   padding-top: 40px;
+   margin-right: auto;
+   margin-left: auto;
+
 }
 
 
@@ -36,13 +42,19 @@ li{
 	font-family: 'IBM Plex Mono', monospace;
 	font-size: 12px;
 	color: #5AF3BB;
-	width: 40%;
-	height: auto;
 	text-align: center;
 	list-style-type: none;
 	display: inline;
 	border: 1px solid #5AF3BB;
+	border-radius: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 80px;
+	padding-left: 80px;
 }
+
 
 
 li:hover{
@@ -54,11 +66,7 @@ img{
 	height: 500px;
 }
 
-.grunge{
-height: 100vh;
-width: 100%;
-background-image: url("grunge.png");
-}
+
 
 .glow{
 	width: 40%;
@@ -76,22 +84,22 @@ background-image: url("grunge.png");
 
 .section:nth-child(1){
 	display: none;
-	background-image: url("grunge.png");
+	background-image: url("grain.png");
 }
 
 .section:nth-child(2){
 	display: none;
-	background-image: url("grunge.png");
+	background-image: url("grain.png");
 }
 
 .section:nth-child(3){
 	display: none;
-	background-image: url("grunge.png");
+	background-image: url("grain.png");
 }
 
 .section:nth-child(4){
 	display: none;
-	background-image: url("grunge.png");
+	background-image: url("grain.png");
 }
 
 
@@ -128,7 +136,8 @@ background-image: url("grunge.png");
 
 #loader{
 	height: 100vh;
-	background-color: #211E2B;
+	background-color: black;
+	background-image: url("grain.png");
 }
 
 #loader h1{
