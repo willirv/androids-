@@ -155,6 +155,8 @@ img{
 
 #loader{
 	height: 100vh;
+	width: 100%;
+	margin: auto;
 	background-color: black;
 	background-image: url("grain.png");
 }
@@ -164,6 +166,18 @@ img{
 	padding-top: 250px;
 	padding-bottom: 80px;
 	font-size: 30px;
+}
+
+#loader img{
+	position: absolute;
+	width: 20vh;
+	height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+	padding-bottom: 100px;
+	padding-top: 100px;
+    top: 100px;
+    left: 45%;
 }
 
 #glitch{
@@ -296,6 +310,9 @@ img{
 
 #start-button{
 	width: 20%;
+	position: absolute;
+	top: 400px;
+	left: 40%;
 	margin: auto;
 	text-align: center;
 	border: 1px solid #5AF3BB;
